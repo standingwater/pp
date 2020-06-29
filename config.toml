@@ -1,8 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "https://standingwater.github.io/pp/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "forty"
 
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+author = false
 
 [Params]
   subtitle = "にゃーん"
@@ -18,3 +24,23 @@ theme = "forty"
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
+
+[Author]
+  name = "uzimihsr"
+  github = "uzimihsr"
+  twitter = "uzimihsr"
+
+[[menu.main]]
+  name = "Blog"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "Tags"
+  url = "tags"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "page/about/"
+  weight = 3
